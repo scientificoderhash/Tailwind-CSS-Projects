@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.btn{
+    @apply mr-10 py-1 px-4 border-blue-900 border-2 rounded-full font-semibold text-blue-700 text-sm;
+}
+
+.btn:hover{
+    background-color: #2b6cb0;
+    color: white;
+    transition-duration: 300ms;
+    transition-timing-function: ease-out;
+    cursor: pointer;
+}
+
+.card{
+    @apply bg-white rounded-xl overflow-hidden;
+    height: 46.5vmin;
+}
+
+.card img{
+    height: 38vmin;
+    width: 100%;
+  object-fit: cover;
+}

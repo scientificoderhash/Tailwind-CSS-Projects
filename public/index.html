@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+  <title>Document</title>
+</head>
+
+<body>
+  <div class="md:grid md:grid-cols-3">
+    <div class="md:col-span-1 md:h-screen">
+      <nav class="md:sticky md:top-0 py-3">
+        <div class="flex w-full justify-center text-3xl font-semibold underline">
+          <h1 class="w-full px-10 flex flex-row justify-between items-center">
+            <a>Food Ninja</a>
+            <svg class="w-8 md:hidden" id="hamburger" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+            </svg>
+          </h1>
+        </div>
+        <ul class="items-end py-12 hidden md:block sm:h-0 duration-500 ease-out" id="nav">
+          <li class="border-r-4 border-blue-800 pr-10 text-right">
+            <a href="#">
+              <span>Home</span>
+            </a>
+          </li>
+          <li class="border-r-4 border-white pr-10 text-right">
+            <a href="#">
+              <span>About</span>
+            </a>
+          </li>
+          <li class="border-r-4 border-white pr-10 text-right"> 
+            <a href="#">
+              <span>Contact</span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+
+    <main class="px-16 py-6 bg-gray-300 md:col-span-2 md:col-start-2 md:col-end-4">
+
+      <div class="flex md:justify-end sm:justify-center">
+        <a href="#" class="btn">Log in</a>
+        <a href="#" class="btn">Sign up</a>
+      </div>
+
+      <header>
+        <h2 class="text-5xl my-0">Recipes</h2>
+        <h3 class="text-2xl my-0">For Ninjas</h3>
+      </header>
+
+      <div>
+        <h4 class="py-4 font-bold">Latest Recipes</h4>
+
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6 sm:grid-cols-1">
+          <!-- cards go here -->
+          <div class="card">
+            <img src="img/download.jpg" alt="Koala" class="object-cover">
+            <div class="m-3 mt-0">
+              <span class="text-base font-semibold">5 Bean Chili Stew</span>
+              <span class="block text-sm">Recipe by Mario</span>
+            </div>
+          </div>
+          <div class="card">
+            <img src="img/images (12).jpg" alt="Koala" class="object-contain">
+            <div class="m-3 mt-0">
+              <span class="text-base font-semibold">5 Bean Chili Stew</span>
+              <span class="block text-sm">Recipe by Mario</span>
+            </div>
+          </div>
+          <div class="card">
+            <img src="img/images (3).jpg" alt="Koala" class="object-fill">
+            <div class="m-3 mt-0">
+              <span class="text-base font-semibold">5 Bean Chili Stew</span>
+              <span class="block text-sm">Recipe by Mario</span>
+            </div>
+          </div>
+
+        </div>
+
+        <h4 class="py-4 font-bold">Most Popular</h4>
+
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6 sm:grid-cols-1">
+          <!-- cards go here -->
+          <div class="card">
+            <img src="img/download.jpg" alt="Koala" class="object-cover">
+            <div class="m-3 mt-0">
+              <span class="text-base font-semibold">5 Bean Chili Stew</span>
+              <span class="block text-sm">Recipe by Mario</span>
+            </div>
+          </div>
+          <div class="card">
+            <img src="img/images (12).jpg" alt="Koala" class="object-contain">
+            <div class="m-3 mt-0">
+              <span class="text-base font-semibold">5 Bean Chili Stew</span>
+              <span class="block text-sm">Recipe by Mario</span>
+            </div>
+          </div>
+          <div class="card">
+            <img src="img/images (3).jpg" alt="Koala" class="object-fill">
+            <div class="m-3 mt-0">
+              <span class="text-base font-semibold">5 Bean Chili Stew</span>
+              <span class="block text-sm">Recipe by Mario</span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="w-full flex justify-center m-4">
+        <div class="btn">Load more</div>
+      </div>
+
+  </main>
+  </div>
+</body>
+
+</html>
