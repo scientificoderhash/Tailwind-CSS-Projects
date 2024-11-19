@@ -16,7 +16,7 @@
 
 .card{
     @apply bg-white rounded-xl overflow-hidden;
-    height: 46.5vmin;
+    height: fit-content;
 }
 
 .card img{
